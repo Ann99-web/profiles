@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery food</title>
+   
+   
+    <link rel="stylesheet" href="./styleford.css">
+   
+    <script src="delivery.js" defer></script>
+
+   
+   
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a class="logo">
+               <img src="./лягушка воин.jpg" alt="Logo"/>
+
+            </a>
+            <label class="adress">
+                <input type="text" class="input input-adress" placeholder="Адрес даставки"/>
+            </label>
+
+            <div class="buttons">
+                <span class="username"></span>
+                    <button class="button-auth">
+                        <span class="button-auth-svg"> </span>
+                        <span  class="button-text">Войти</span>
+                    </button>
+                    <button class="button button-cart" id="cart-button">
+                        <span class="button-cart-svg"> </span>
+                        <span  class="button-text">Корзина</span>
+                    </button>
+                    <button class="button button-primary button-out" id="cart-button">
+                        <span  class="button-text">Выйти</span>
+                        <span class="button-out-svg"> </span>
+                        
+                    </button>
+
+                </div>
+
+        </header>
+
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <section class="promo pizza">
+                <h1 class="promo-title"> Онлайн сервис </br> доставки еды на дом</h1>
+                <p class="promo-text">
+                    Блюда из любимого ресторана привезет курьер в перчатках 
+                </p>
+            </section>
+            <section class="restorants">
+                <div class="section-heading">
+                    <h2 class="section-tytle">Рестораны</h2>
+                    <label class="search">
+                        <input type="text" class="input input-search" placeholder="Поиск ресторанов"
+                    </label>
+                </div>
+                <div class="cards cards-restorants">
+                    <a href="restorants.html" class="card card-restorant"></a>
+                    <img src="лягушка воин.jpg" alt="Error"> </img>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    
+  <div class="modal-auth">
+  <div class="modal-dialog modal-dialog-auth">
+      <button class="close-auth">&times;</button>
+      <form id="logInForm"> 
+          <fieldset class="modalbody">
+              <legend class="modal-title">Авторизация</legend>
+              <label class="label-auth">
+                  <span>Пароль</span>
+                  <input id="password" type="password">
+              </label>
+          </fieldset>
+
+          <div class="modal-footer">
+              <div class="footer-buttons">
+                  <button class="button button-primary button-login" type="submit">Войти</button>
+              </div>
+          </div>
+      </form>
+
+  </div>
+    
+
+    </div>
+    </body>
+  
+</html>

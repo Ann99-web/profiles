@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\..\\lessons\\java"
+    },
+    {
+      "path": "..\\..\\lessons"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    }
+  }
+}
