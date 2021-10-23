@@ -1,0 +1,121 @@
+* body {
+  padding: 5px;
+  display: flex;
+}
+li {
+  color: #595959;
+  line-height: 20px;
+}
+span {
+  color: #a8a8a8;
+}
+.wrapper {
+  background: white;
+  padding: 40px;
+}
+.sidebar {
+  background: #1e2939;
+  width: 400px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.ts {
+  color: white;
+}
+.myphoto {
+  width: 400px;
+  padding-bottom: 60px;
+  padding-left: 0;
+}
+.R {
+  color: #ff6b08;
+}
+.NUR {
+  height: 16px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #ff6b08;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "National U" */
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+.Sep {
+  /* Style for "September" */
+  width: 181px;
+  height: 13px;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "September" */
+  font-style: normal;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  padding-bottom: 107px;
+}
+.Name {
+  width: 341px;
+  height: 45px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 89px;
+  text-align: left;
+  /* Text style for "Anton Chor" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.Paragraph {
+  width: 413px;
+  height: 107px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-bottom: 44px;
+}
+.control1 {
+  margin-top: 60px;
+}
+.control2 {
+  margin-top: 60px;
+}
+.control3 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.aboutme {
+  padding-left: 90px;
+  padding-right: 90x;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.contact {
+  padding-left: 40px;
+}
